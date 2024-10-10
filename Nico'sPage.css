@@ -1,7 +1,3 @@
-table,tr,td{
-    border: 1px, solid, black;
-    border-collapse: collapse;
-}
 .navbar{
     background-color: lightgoldenrodyellow;
     border: 1px, solid, black;
@@ -10,8 +6,6 @@ table,tr,td{
     align-items: center;
     flex:  1 150em;
     justify-content: space-around;
-    
-
 }
 .flex-container{
     display: flex;
@@ -20,12 +14,16 @@ table,tr,td{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-h1{
-    text-align: center;
+table,tr,td{
+    border: 1px, solid, black;
+    border-collapse: collapse;
 }
 header{
     position: sticky;
-    top: 5px;
+    top: 10px;
+}
+h1{
+    text-align: center;
 }
 section{
     text-align: center;
