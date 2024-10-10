@@ -1,0 +1,42 @@
+table,tr,td{
+    border: 1px, solid, black;
+    border-collapse: collapse;
+}
+.navbar{
+    background-color: lightgoldenrodyellow;
+    border: 1px, solid, black;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    flex:  1 150em;
+    justify-content: space-around;
+    
+
+}
+.flex-container{
+    display: flex;
+    align-items: flex-start;
+    flex: 1 15em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+}
+header{
+    position: sticky;
+    top: 5px;
+}
+section{
+    text-align: center;
+}
+#section-1{
+    background-color: aquamarine;
+}
+#section-2{
+    background-color: beige;
+    flex: 2;
+}
+#section-3{
+    background-color: blueviolet;
+}
