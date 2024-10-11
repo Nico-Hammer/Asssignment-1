@@ -1,20 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="index.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1 Title Page</title>
+    <title>Giggle</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
-    <h1>Assignment 1 title page for Nico and Kory</h1>
-    <p>This is the title page for web dev 1 assignment 1 which serves as the landing page
-        and navigation page for the project.
-    </p>
-    <a href="Nico'sPage.html">Nico's Page</a>
-    <a href="Giraffe.html">Korypedia</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">About</a></li>
+                <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">Store</a></li>
+            </ul>
+            <ul>
+                <li><a class="small-text" href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">Gigmail</a></li>
+                <li><a class="small-text" href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">Gigages</a></li>
+                <li class="menu-bg">
+                    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">
+                        <img
+                        class="menu-btn"
+                        src="images/menu.png"
+                     alt="menu button">
+                    </a>
+                </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">
+                    <img
+                    class="profile-pic"
+                    src="images/Bunch-of-bananas-67e91d5.jpg"
+                    alt="profile-pic">
+                </a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <section class="search-wrapper">
+        <img 
+        class="logo" 
+        src="images/Giggle Logo.png" 
+        alt="Giggle logo">
+        <form>
+            <img
+            class="search"
+            src="images/search.png">
+            <img
+            class="mic"
+            src="images/mic.png">
+            <input type="text">
+            <div class="buttons">
+                <button type="button" onclick="window.location.href='korypedia.html'">Kory's Page</button>
+                <button type="button" onclick="window.location.href='#'">Nico's Page</button>
+
+            </div>
+        </form>
+    </section>
+
+
 </body>
-<footer>
-    <h3>This is the footer</h3>
-</footer>
 </html>

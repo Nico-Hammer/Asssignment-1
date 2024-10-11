@@ -42,7 +42,7 @@ header {
 }
 
 #search-btn:hover {
-    background-color: #2a5298;
+    background-color: #2a983a;
 }
 
 
@@ -51,7 +51,7 @@ header {
     padding: 20px;
     background-color: #f8f9fa;
     position: fixed;
-    top: 140px;
+    top: 132px;
     bottom: 0;
     height: 500px;
 }
@@ -177,4 +177,12 @@ footer a:hover {
 span {
     color: #36c;
     font-weight: normal;
+}
+
+#top {
+    color: black;
+}
+
+h4 {
+    color: black;
 }
