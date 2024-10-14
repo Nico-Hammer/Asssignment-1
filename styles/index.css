@@ -132,3 +132,6 @@ button:hover {
     justify-content: center;
     gap: 15px;
 }
+input{
+    font-size: 15px;
+}

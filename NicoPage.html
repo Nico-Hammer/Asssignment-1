@@ -3,85 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/NicoPage.css"/>
+    <link rel="stylesheet" href="styles/NicoPage.css">
     <title>Nico's Page</title>
-    <header id="Head">This is a header</header>
 </head>
 <body>
+    <header class="flex-head">
+        <img src="images/menu.png" alt="some text" width="50" height="50">
+        <input type="text" placeholder="This is useless">
+        <button type="button" onclick="location.href='index.html'">Search</button>
+    </header>
     <section class="flex-container">
         <nav class="flex-nav">
-            <p>Content</p>
-            <ul>
+            <p id="ContentHeader">Content</p>
+            <ul class="QuickLinks">
+                <li><a href="#Head"><b>(Top)</b></a></li>
                 <li><a href="index.html">Main Page</a></li>
-                <li><a href="#Head">Top</a></li>
-                <li><a href="#H1">Heading 1</a></li>
-                <li><a href="#H2">Heading 2</a></li>
-                <li><a href="#H3">Heading 3</a></li>
-                <li><a href="#H4">Heading 4</a></li>
-                <li><a href="#H5">Heading 5</a></li>
+                <li><a href="#H1">The Platypus</a></li>
+                <li><a href="#H2">Physical Characteristics</a></li>
+                <li><a href="#H3">Habitat and Distribution</a></li>
+                <li><a href="#H4">Diet</a></li>
+                <li><a href="#H5">Reproduction and Lifespan</a></li>
                 <li><a href="#Table">Table</a></li>
            </ul>
         </nav>
         <section class="flex-paragraph">
-            <h3 id="H1">Heading 1</h3>
-            <p>this is some text</p>
-            <p>this is some text</p>
-            <p>this is some text</p>
-            <p>this is some text</p>
-            <p>this is some text</p>
-            <p>this is some text</p>
-            <h3 id="H2">Heading 2</h3>
-            <p>this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text</p>
-            <h3 id="H3">Heading 3</h3>
-            <p>this is some text</p>
-            <p>this is some text</p>
-            <p>this is some text</p>
-            <h3 id="H4">Heading 4</h3>
-            <p>this is some text</p>
-            <p>this is some text</p>
-            <p>this is some text</p>
-            <h3 id="H5">Heading 5</h3>
-            <p>this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text</p>
-            <p>this is some text</p>
-            <p>this is some text</p>
+            <article>
+                <h1 id="H1">The Platypus</h1>
+                <p>The platypus (Ornithorhynchus anatinus), sometimes referred to as the duck-billed playpus, is one of few mammals on earth that lays eggs (known as monotremes)
+                    and is the sole living representative of its family and genus Ornithorhynchus.
+                </p>
+            </article>
+            <article>
+                <h1 id="H2">Physical Characteristics</h1>
+                <p>Described as a "duck-billed, beaver-tailed, otter-footed mammal", the platypus is one of the most unique looking animals on the planet. Apart from its unusual appearance,
+                    it also has incredibly soft fur and was hunted for it during the past, but it has been a protected species since 1912.
+                </p>
+            </article>
+            <article>
+                <h1 id="H3">Habitat and Distribution</h1>
+                <p>Being a semi-aquatic species, platypus prefer areas with abundant water. They occupy small streams and rivers over an extensive area from the highlands of Tasmania
+                    and the Australian Alps, to the tropical rainforests of coastal Queensland as far north as the Cape York Pennisula. Male territories often occupy up to 7km (4.3 mi) of land
+                    and border on 3 to 4 female territories, included in the territories are riparian zones where they have the opportunity to create nests/burrows and rest to digest food.
+                </p>
+            </article>
+            <article>
+                <h1 id="H4">Diet</h1>
+                <p>Platypi are carnivorous and hunts by using eltrolocation, which uses specialized receptors in its bill to send out electrical signals in the water, allowing it to hunt
+                    even in cloudy water. They prey on annelid worms, insect larvae, freshwater shrimp, and crayfish which it digs out of the sand with its bill or catches while swimming.
+                    They carry prey to the surface by holding them in its cheek-pouches and eats around 20% of its weight per day requiring it spend up to 12 hours a day hunting.
+                </p>
+            </article>
+            <article>
+                <h1 id="H5">Reproduction and Lifespan</h1>
+                <p>While some local variations exist, for the most part there is a single mating season per year between June and October. Platipus mate using a polygynous system meaning
+                    both male and female mate with multiple partners however males typically have more partners than the females. After mating, the females lay between one and three roud,
+                    leathery eggs (on average they lay two) which develop in utero for 28 days and with 10 days of external incubation. They can live up to 30 years in captivity and have
+                    reported cases of living up 24 years old in the wild.
+                </p>
+            </article>
         </section>
         <aside class="flex-aside">
-            <img src="images/Bunch-of-bananas-67e91d5.jpg" alt="some bananas">
-            <p>this is some text in an aside</p>
-            <p>this is some text in an aside</p>
-            <p>this is some text in an aside</p>
-            <p>this is some text in an aside</p>
-            <p>this is some text in an aside</p>
+            <img src="images/platypus.jpg" alt="platypus swimming in water">
+            <h1>Platypus</h1>
+            <p>The platypus (Ornithorhynchus anatinus) is a semi-aquatic mammal native to eastern Australia known for
+                it's signature appearance and has many strange qualities such as: A poisonous spur on the
+                hind left leg of males; Females that lack teats and feed through pores that leak milk which concentrates on their abdomen; Biofluorescnt fur; and many more.
         </aside>
     </section>
-    <h3>Table</h3>
+    <h1>Weight and Length by Gender</h1>
     <table id="Table">
         <thead>
             <tr>
-                <th>test</th>
-                <td>col 1</td>
-                <td>col 2</td>
-                <td>col 3</td>
+                <th>Gender</th>
+                <th>Weight</th>
+                <th>Length</th>
+                <th>Population Status</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th>head 1</th>
-                <td>this is some table data</td>
-                <td>this is some table data</td>
-                <td>this is some table data</td>
+                <th>Male</th>
+                <td rowspan="2">0.7kg (1lb 9 oz) to 2.4kg (5lb 5oz)</td>
+                <td>Average of 50cm (20in)</td>
+                <td rowspan="2">Threatened</td>
             </tr>
             <tr>
-                <th>head 2</th>
-                <td>this is some table data</td>
-                <td>this is some table data</td>
-                <td>this is some table data</td>
-            </tr>
-            <tr>
-                <th>head 3</th>
-                <td>this is some table data</td>
-                <td>this is some table data</td>
-                <td>this is some table data</td>
+                <th>Female</th>
+                <td>Average of 43cm (17in)</td>
             </tr>
         </tbody>
     </table>
