@@ -78,6 +78,7 @@ aside{
 }
 img{
     padding: 10px;
+    float: right;
 }
 h1{
     font-size: 35px;
