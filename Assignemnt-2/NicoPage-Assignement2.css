@@ -1,0 +1,164 @@
+header{
+    text-align: left; 
+    border-bottom: 1px solid black;
+    background-color: #f1f1f1;
+}
+.search-multicol{
+    column-width: 50px;
+    column-gap: 145px;
+    margin-left: 300px;
+}
+/* css to align the searchbar and button */
+input{
+    padding-right: 50px;
+    height: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+button{
+    column-width: 50px;
+    height: 26px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+body{
+    position: relative;
+    min-height: min-content;
+    padding-bottom: 6rem;
+    background-color: #f8f9fa;
+}
+.Flex-Container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.flex-nav{
+    flex: 1;
+    align-items: flex-start;
+    align-self: self-start;
+    justify-content: space-evenly;
+    margin-top: 54px;
+    margin-right: 10px;
+    position: sticky;
+    top: 30px;
+}
+#ContentHeader{
+    border-bottom: 1px solid black;
+}
+.flex-content{
+    flex: 6;
+    margin-top: 25px;
+}
+.flex-facts{
+    flex: 3em;
+    margin-top: 20px;
+    align-self: self-start;
+    float: right;
+    margin-left: 20px;
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1300px,1fr));
+    gap: 2px 20px;
+    grid-auto-rows: minmax(10px,auto);
+}
+li{
+    list-style: none;
+    height: 35px;
+    text-align: left;
+}
+h2{
+    font-size: 35px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+p{
+    text-align: left;
+    font-size: larger;
+
+}
+/* all the css for the table */
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    height: 100px;
+}
+table{
+    margin-bottom: 10px;
+}
+table, tr, td{
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead th{
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#fact-header{
+    border-bottom: 1px solid black;
+}
+#fun-facts{
+    border: 1px solid black;
+    text-align: center;
+}
+#fun-facts img{
+    padding: 10px;
+    float: right;
+}
+#fun-facts p{
+    font-size: x-large;
+}
+/* all the css for the footer */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    text-align: center; 
+    border-top: 1px solid black;
+    background-color: #f1f1f1;
+}
+footer p{
+    text-align: center;
+    font-size: small;
+}
+@media screen and (width <= 2000px) {
+    #fun-facts{
+        display: none;
+    }
+    .grid-content{
+        grid-template-columns: repeat(auto-fit, minmax(700px,1fr));
+        gap: 2px 300px;
+        grid-auto-rows: minmax(10px,auto);
+    }
+    p{
+        text-wrap: wrap;
+        font-size: large;
+    }
+    .table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        height: 100px;
+    }
+}
+@media screen and (width <= 1500px){
+    .flex-nav{
+        display: none;
+    }
+    .table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: 100px;
+    }
+}
