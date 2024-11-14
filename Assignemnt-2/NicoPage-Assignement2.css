@@ -1,4 +1,6 @@
 #Header{
+    display: flex;
+    align-items: flex-start;
     text-align: left; 
     border-bottom: 1px solid black;
     background-color: #f1f1f1;
@@ -7,19 +9,16 @@
     margin-bottom: 5px;
 }
 /* css for searchbar and button */
-.search-multicol{
-    column-width: 160px;
-    column-gap: 5px;
-    margin-left: 300px;
-}
 input{
+    margin-top: 50px;
     padding-right: 10px;
     height: 20px;
     text-align: left;
     border-radius: 5px;
 }
 button{
-    column-width: 50px;
+    margin-top: 50px;
+    margin-left: 5px;
     margin-bottom: 5px;
     height: 26px;
     border: 2px solid black;
@@ -124,6 +123,13 @@ thead th{
 #fun-facts p{
     font-size: x-large;
 }
+/* css for the multicol section */
+.multicol{
+    column-count: 2;
+    column-width: 250px;
+    column-gap: 5px;
+    column-rule: 1px dotted black;
+}
 /* all the css for the footer */
 footer{
     position: absolute;
@@ -158,6 +164,10 @@ footer p{
         width: 1000px;
         height: 100px;
     }
+    .multicol{
+        column-width: 150px;
+        column-count: 3;
+    }
 }
 @media screen and (width <= 1500px){
     .flex-nav{
@@ -166,7 +176,10 @@ footer p{
     .table{
         margin-left: auto;
         margin-right: auto;
-        width: 800px;
+        width: 700px;
         height: 100px;
+    }
+    .multicol{
+        column-gap: 20px;
     }
 }
